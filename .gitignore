@@ -1,0 +1,49 @@
+# Dependencies
+**/node_modules/
+
+# Rust and Anchor build output
+**/target/
+**/.anchor/
+**/test-ledger/
+**/*.rs.bk
+
+# Package-manager caches and generated metadata
+**/.yarn/*
+!**/.yarn/patches/
+!**/.yarn/plugins/
+!**/.yarn/releases/
+!**/.yarn/sdks/
+!**/.yarn/versions/
+**/.pnp.*
+**/.yarn-integrity
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs, coverage, and temporary files
+*.log
+logs/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+*.tmp
+*.temp
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Local Solana credentials and generated keypairs
+**/id.json
+**/*-keypair.json
+**/*.pem
